@@ -33,6 +33,26 @@
 
         {#- Add the heading-anchors web component to the JavaScript bundle #}
         {%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
+
+        {#- Google Analytics #}
+        {%- if siteConfig.environment == "production" and analytics.google.id %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ analytics.google.id }}"></script>
+        <script>
+            window['ga-disable-{{ analytics.google.id }}'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{ analytics.google.id }}');
+        </script>
+        {%- endif %}
+
+        {#- Umami Analytics #}
+        {%- if siteConfig.environment == "production" and analytics.umami.url and analytics.umami.website_id and analytics.umami.domains %}
+        <script defer src="{{ analytics.umami.url }}" data-website-id="{{ analytics.umami.website_id }}" data-domains="{{ analytics.umami.domains }}"></script>
+        {%- elif siteConfig.environment == "production" and analytics.umami.url and analytics.umami.website_id %}
+        <script defer src="{{ analytics.umami.url }}" data-website-id="{{ analytics.umami.website_id }}"></script>
+        {%- endif %}
     </head>
     <body>
         <a href="#skip" class="visually-hidden">Skip to main content</a>

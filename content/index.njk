@@ -1,0 +1,49 @@
+---
+eleventyNavigation: {
+    key: Home,
+    order 1
+}
+---
+
+<h1>blog.wwdt.me</h1>
+
+<p>
+Welcome to the archived version of the Wait Wait Stats Project blog. This blog
+had previously been used to detail work on the <a href="https://stats.wwdt.me/">Stats Page</a>
+and related sites.
+</p>
+
+<p>
+The content of this site was ported over from the previously WordPress-powered
+blog, with some updates to fix broken links, update links to personal tweets to
+my <a href="https://tweets.linh.social/">tweet archive</a>, and fix some issues
+with formatting.
+</p>
+
+<p>
+All new development updates are now being posted on my personal blog at
+<a href="https://blog.linh.social/">blog.linh.social</a>.
+</p>
+
+<p>
+I occasionally post updates on my two primary social media accounts:
+</p>
+
+<ul>
+    <li>Mastodon: <a href="https://linh.social/@qlp" rel="me">@qlp@linh.social</a></li>
+    <li>Bluesky: <a href="https://bsky.app/profile/linh.social">@linh.social</a></li>
+</ul>
+
+<h2>Blog Posts</h2>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}
+
+{# List every content page in the project #}
+{#
+<ul>
+    {%- for entry in collections.all %}
+    <li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+    {%- endfor %}
+</ul>
+#}

@@ -72,15 +72,15 @@
         </header>
 
         <main id="skip">
-            <heading-anchors>
-                {{ content | safe }}
-            </heading-anchors>
+            {#- <heading-anchors> #}
+            {{ content | safe }}
+            {#- </heading-anchors> #}
         </main>
 
         <footer>
             <p id="copyright">
                 Copyright &copy; {% copyrightDate %} by <a href="{{ metadata.author.url }}">{{ metadata.author.name }}</a>.
-                Code: <a href="">MIT</a>, Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                Code: <a href="https://github.com/questionlp/blog.wwdt.me_11ty/blob/main/LICENSE.md#mit-license">MIT</a>, Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
             </p>
         </footer>
 

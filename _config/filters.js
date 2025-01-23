@@ -35,7 +35,7 @@ export default function(eleventyConfig) {
 
     // Return the keys used in an object
     eleventyConfig.addFilter("getKeys", target => {
-        return Object.keys(target);
+        return Object.keys(target).sort();
     });
 
     eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {

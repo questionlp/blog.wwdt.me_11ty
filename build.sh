@@ -8,4 +8,5 @@ fi
 
 mv /u01/www/blog.wwdt.me /u01/www/blog.wwdt.me.old
 
-npx @11ty/eleventy --output=/u01/www/blog.wwdt.me
+npx @11ty/eleventy
+mv _site /u01/www/blog.wwdt.me

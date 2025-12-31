@@ -9,7 +9,7 @@ categories: ['Blog Posts']
 tags: ['Data', 'Stats Page']
 ---
 
-Due to the ongoing pandemic scuppering my plans to visit Chicago and go to a Wait Wait... Don't Tell Me! live taping on my 40th birthday, I decided to take some time off of work and do some catch-up work on the Wait Wait Stats Page side of things. So, over the past few days, I have been collecting and entering in the missing data for theBluff the Listener segment data (correct and chosen panelists), Not My Job scores, and some of the Lightning Fill-in-the-Blank segment starting score and correct answers.
+Due to the ongoing pandemic scuppering my plans to visit Chicago and go to a Wait Wait... Don't Tell Me! live taping on my 40th birthday, I decided to take some time off of work and do some catch-up work on the Wait Wait Stats Page side of things. So, over the past few days, I have been collecting and entering in the missing data for the Bluff the Listener segment data (correct and chosen panelists), Not My Job scores, and some of the Lightning Fill-in-the-Blank segment starting score and correct answers.
 
 Up until recently, I was missing a varying amount of data for 2001 through 2012. For the most part, I scanned through each of the segment audio or full show audio, that I've been able to coax off of NPR's public servers, and record the data as I went along. Something that I noted is that the segment order that NPR lists for some of the shows in the early 2000s does not match up with actual audio segment order.
 

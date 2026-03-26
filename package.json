@@ -49,6 +49,9 @@
         "zod-validation-error": "^5.0.0"
     },
     "dependencies": {
+        "@ibm/plex-sans": "^1.1.0",
+        "@ibm/plex-mono": "^1.1.0",
+        "@ibm/plex-serif": "^2.0.0",
         "@zachleat/heading-anchors": "^1.0.5",
         "dotenv": "^17.3.1",
         "lodash": "^4.17.23",

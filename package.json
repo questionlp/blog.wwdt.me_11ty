@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^4.0.0-alpha.10",
+    "@11ty/eleventy": "^4.0.0-alpha.12",
     "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "@ibm/plex-mono": "^2.5.0",
-    "@ibm/plex-sans": "^1.1.0",
+    "@ibm/plex-sans": "^2.0.0",
     "@ibm/plex-serif": "^2.0.0",
     "@zachleat/heading-anchors": "^1.0.5",
     "dotenv": "^17.4.2",
@@ -58,9 +58,9 @@
     "pagefind": "^1.5.2"
   },
   "allowScripts": {
-    "@11ty/eleventy-img>sharp#0.33.5": false,
-    "@ibm/plex-mono#1.1.0": false,
-    "@ibm/plex-sans#1.1.0": false,
-    "@ibm/plex-serif#2.0.0": false
+    "@11ty/eleventy-img>sharp#0.33.5": true,
+    "@ibm/plex-mono#2.5.0": true,
+    "@ibm/plex-sans#2.0.0": true,
+    "@ibm/plex-serif#2.0.0": true
   }
 }
